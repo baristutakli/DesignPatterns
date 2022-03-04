@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singelton", "Singelton", "{BEA021D8-6938-4832-89AD-1E31C2499D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Singelton", "Singelton\DesignPatterns.Singelton\DesignPatterns.Singelton.csproj", "{77579EA6-A87F-42B8-8155-A8D9201C555E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77579EA6-A87F-42B8-8155-A8D9201C555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77579EA6-A87F-42B8-8155-A8D9201C555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77579EA6-A87F-42B8-8155-A8D9201C555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77579EA6-A87F-42B8-8155-A8D9201C555E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77579EA6-A87F-42B8-8155-A8D9201C555E} = {BEA021D8-6938-4832-89AD-1E31C2499D2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9640F0-8101-48AC-ABE9-0C52333D9666}
+	EndGlobalSection
+EndGlobal
