@@ -6,8 +6,8 @@ namespace DesignPatterns.Singleton
     {
         static void Main(string[] args)
         {
-           
-           var customerManager= CustomerManager.CreateAsSingleton();
+
+            var customerManager = CustomerManager.CreateAsSingleton();
             customerManager.Save();
         }
     }

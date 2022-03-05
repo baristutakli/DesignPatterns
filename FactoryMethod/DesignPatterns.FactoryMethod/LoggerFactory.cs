@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.FactoryMethod
 {
-    public class LoggerFactory:ILoggerFactory
+    public class LoggerFactory : ILoggerFactory
     {
         public ILogger CreateLogger()
         {

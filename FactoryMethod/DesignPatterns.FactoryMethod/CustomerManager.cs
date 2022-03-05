@@ -9,7 +9,7 @@
         }
         public void Save()
         {
-            ILogger logger=_loggerFactory.CreateLogger();
+            ILogger logger = _loggerFactory.CreateLogger();
             logger.Log();
         }
     }
