@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Prototype
+﻿namespace DesignPatterns.Prototype
 {
     public class Category : PrototypeCategory
     {
@@ -28,7 +22,7 @@ namespace DesignPatterns.Prototype
         /// <returns></returns>
         public override PrototypeCategory Clone()
         {
-           return  this.MemberwiseClone() as PrototypeCategory;
+            return this.MemberwiseClone() as PrototypeCategory;
         }
     }
 }

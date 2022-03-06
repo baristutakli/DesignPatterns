@@ -9,7 +9,7 @@ namespace DesignPatterns.Adapter
             Console.WriteLine("Hello World!");
             ProductManager productManager = new ProductManager(new LogAdapter());
             productManager.Save();
-            
+
         }
     }
 }

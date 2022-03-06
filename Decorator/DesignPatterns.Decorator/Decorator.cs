@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator
 {
     //Decorator
     public class DecoratorRepository<T> : IRepository<T> where T : class

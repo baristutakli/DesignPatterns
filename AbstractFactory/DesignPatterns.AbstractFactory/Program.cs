@@ -9,7 +9,7 @@ namespace DesignPatterns.AbstractFactory
             Console.WriteLine("Hello World!");
             Creater create = new Creater(new SqlDatabase());
             create = new Creater(new MySqlDatabase());
-            
+
         }
     }
 }

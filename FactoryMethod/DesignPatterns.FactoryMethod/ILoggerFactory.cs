@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.FactoryMethod
+﻿namespace DesignPatterns.FactoryMethod
 {
-   public interface ILoggerFactory
+    public interface ILoggerFactory
     {
-       ILogger CreateLogger();
+        ILogger CreateLogger();
     }
 }

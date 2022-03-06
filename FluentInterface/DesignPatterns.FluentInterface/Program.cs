@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace DesignPatterns.FluentInterface
 {
@@ -8,15 +6,15 @@ namespace DesignPatterns.FluentInterface
     {
         static void Main(string[] args)
         {
-            
+
             try
             {
                 Validator validator = new Validator();
                 validator.ValidateAndThrow();
             }
-            catch(AggregateException ex)
+            catch (AggregateException ex)
             {
-                Console.WriteLine(ex.Message.ToString().Replace("(","").Replace(")", "\n"));
+                Console.WriteLine(ex.Message.ToString().Replace("(", "").Replace(")", "\n"));
             }
         }
     }

@@ -7,7 +7,7 @@ namespace DesignPatterns.Proxy
         public override int Calculate()
         {
             int result = 0;
-            for (int i = 0; i <20; i++)
+            for (int i = 0; i < 20; i++)
             {
                 result += i;
                 Thread.Sleep(1000);

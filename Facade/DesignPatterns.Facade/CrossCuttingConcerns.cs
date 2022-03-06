@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Facade
 {
-    public class CrossCuttingConcerns :ICrossCuttingConcern
+    public class CrossCuttingConcerns : ICrossCuttingConcern
     {
         public ILogger Logger { get; private set; }
 

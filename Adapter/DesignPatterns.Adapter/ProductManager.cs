@@ -13,7 +13,7 @@ namespace DesignPatterns.Adapter
 
         public void Save()
         {
-            _logger.Log("Message"); 
+            _logger.Log("Message");
             Console.WriteLine("Saved");
         }
     }

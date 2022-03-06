@@ -10,7 +10,7 @@ namespace DesignPatterns.CQRSWithMediator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            // Add dependecy using IOC 
+            // Add dependecies using IOC 
             IMediator mediator = new Mediator();
 
             GetBookRequestModel requestModel = new();

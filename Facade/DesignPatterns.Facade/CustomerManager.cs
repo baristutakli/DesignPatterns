@@ -9,7 +9,8 @@
             _crossCuttingConcern = crossCuttingConcern;
         }
 
-        public void Save() {
+        public void Save()
+        {
             _crossCuttingConcern.Cacher.Cache();
             _crossCuttingConcern.Authorizer.CheckUser();
             _crossCuttingConcern.Logger.Log();
