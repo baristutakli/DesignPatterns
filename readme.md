@@ -11,3 +11,7 @@ This is also a  creational pattern that uses several interfaces to create relate
 
 ### Builder
 That enables us to create different products using the same construction process with the help of abstract classes.
+
+### Fluent Interface
+A fluent interface is an API that depends on method chaining. You can read my latest post about the fluent interface.
+[Fluent Interface](https://baristutakli.medium.com/fluent-interface-method-chaining-13dc3b6a81ff)
