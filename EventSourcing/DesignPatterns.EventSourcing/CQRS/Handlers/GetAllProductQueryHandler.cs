@@ -9,15 +9,16 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.EventSourcing.CQRS.Handlers
 {
-    public class CreateProductCommandHandler
+    class GetAllProductQueryHandler
     {
-        public CreateProductCommandResponse CreateProduct(CreateProductCommandRequest request)
+        public List<GetAllProductQueryResponse> GetAll(GetAllProductQueryRequest request)
         {
-            DataGenerator.Products.Add(new Product( request.Title, request.Price));
-            return new CreateProductCommandResponse
+            return DataGenerator.Products.Select(product => new GetAllProductQueryResponse
             {
-                Product = DataGenerator.Products.Last()
-            };
+                Id = product.Id,
+                Title = product.Title,
+                Price = product.Price
+            }).ToList();
         }
     }
 }

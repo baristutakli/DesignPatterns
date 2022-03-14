@@ -9,15 +9,14 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.EventSourcing.CQRS.Handlers
 {
-    public class ChangeProductTitleCommandHandler
+    class GetProductQueryHandler
     {
-        public ChangeProductTitleCommandResponse ChangeTitle(ChangeProductTitleCommandRequest request)
+        public GetProductQueryResponse GetProduct(GetProductQueryRequest request)
         {
             Product product = DataGenerator.Products.FirstOrDefault(p => p.Id == request.Id);
-            product.SetTitle(request.Title);
-            return new ChangeProductTitleCommandResponse
+            return new GetProductQueryResponse
             {
-               Success = true
+                Product = product
             };
         }
     }

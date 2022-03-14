@@ -11,7 +11,7 @@ namespace DesignPatterns.EventSourcing.CQRS.Handlers
 {
     public class ChangeProductPriceCommandHandler
     {
-        public ChangeProductPriceCommandResponse ChangeName(ChangeProductPriceCommandRequest request)
+        public ChangeProductPriceCommandResponse ChangePrice(ChangeProductPriceCommandRequest request)
         {
             Product product = DataGenerator.Products.FirstOrDefault(p => p.Id == request.Id);
             product.SetPrice(request.Price);
