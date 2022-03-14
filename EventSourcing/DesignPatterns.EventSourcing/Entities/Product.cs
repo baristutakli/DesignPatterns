@@ -20,6 +20,6 @@ namespace DesignPatterns.EventSourcing.Entities
         }
 
         public void SetTitle(string title) => Title = title;
-        public void setPrice(double price) => Price = price;
+        public void SetPrice(double price) => Price = price;
     }
 }
