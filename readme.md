@@ -15,3 +15,7 @@ That enables us to create different products using the same construction process
 ### Fluent Interface
 A fluent interface is an API that depends on method chaining. You can read my latest post about the fluent interface.
 [Fluent Interface](https://baristutakli.medium.com/fluent-interface-method-chaining-13dc3b6a81ff)
+
+Followed the courses belove:
+* [dohttps://www.dofactory.com/](https://www.dofactory.com/)
+* Engin Demirog-udemy-btk akademi
